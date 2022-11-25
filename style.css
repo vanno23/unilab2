@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(134, 112, 112);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub_container{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    min-width: 200px;
+    margin: 30px;
+    padding: 30px 15px;
+    border-radius: 20px;
+}
+
+.sub_container.active{
+    background-color: rgb(62, 14, 14);
+    box-shadow: 2px 0px 20px rgba(170, 48, 48, 0.8);
+}
+
+
+
+.sub_container .id{
+    text-align: right;
+    font-weight: bold;
+}
+
+.sub_container img{
+    width: 250px;
+    margin-top: 10px;  
+}
+
+.sub_container .imageDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.sub_container .name{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.sub_container.active .name{
+    color: white !important;
+}
+
+.sub_container .surName{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 0px;
+}
+
+.sub_container.active .surName{
+    color: white !important;
+}
+
+
+.sub_container .age{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sub_container.active .age{
+    color: white !important;
+}
+
+.address{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.sub_container.active .address{
+    color: white !important;
+}
